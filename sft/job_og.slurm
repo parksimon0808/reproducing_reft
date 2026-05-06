@@ -43,7 +43,7 @@ run_experiment() {
     local gradient_accumulation_steps=$((total_batch_size / batch_size_per_gpu / NUM_GPUS))
 
     local exp_name="${MODEL_NAME}_${dataset}"
-    local train_file="../generate_data/outputs/${dataset}_final.jsonl"
+    local train_file="../generate_data/outputs/${dataset}_og.jsonl"
     local test_file="../generate_data/outputs/${dataset}_test.jsonl"
     local model_dir="outputs/${exp_name}"
 
