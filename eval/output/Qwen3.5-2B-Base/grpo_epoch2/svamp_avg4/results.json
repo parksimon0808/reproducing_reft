@@ -1,0 +1,2410 @@
+{
+  "config_name": "svamp_avg4",
+  "benchmark": "svamp",
+  "num_problems": 100,
+  "samples_per_problem": 4,
+  "accuracy": 0.6675,
+  "pass@4": 0.96,
+  "per_problem": [
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Winter is almost here and most animals are migrating to warmer countries. There are 41 bird families living near the mountain. If 35 bird families flew away to asia and 62 bird families flew away to africa How many more bird families flew away to africa than those that flew away to asia?\nAnswer:",
+      "gold": "27",
+      "samples": [
+        {
+          "pred": "27",
+          "correct": true
+        },
+        {
+          "pred": "21",
+          "correct": false
+        },
+        {
+          "pred": "21",
+          "correct": false
+        },
+        {
+          "pred": "27",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.5,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Paige raised 7 goldfish and 12 catfish in the pond but stray cats loved eating them. Now she has 15 left. How many fishes disappeared?\nAnswer:",
+      "gold": "4",
+      "samples": [
+        {
+          "pred": "10",
+          "correct": false
+        },
+        {
+          "pred": "4",
+          "correct": true
+        },
+        {
+          "pred": "4",
+          "correct": true
+        },
+        {
+          "pred": "4",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Marco and his dad went strawberry picking. Together they collected strawberries that weighed 22 pounds. On the way back Marco ' dad found 30 more pounds of strawberries. Marco's strawberries now weighed 36 pounds. How much did his dad's strawberries weigh now?\nAnswer:",
+      "gold": "16",
+      "samples": [
+        {
+          "pred": null,
+          "correct": false
+        },
+        {
+          "pred": "16",
+          "correct": true
+        },
+        {
+          "pred": "16",
+          "correct": true
+        },
+        {
+          "pred": null,
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.5,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Debby bought 200 water bottles and 256 soda bottles when they were on sale. If she drank 312 water bottles and 4 soda bottles a day How many days would the soda bottles last?\nAnswer:",
+      "gold": "64",
+      "samples": [
+        {
+          "pred": "1024",
+          "correct": false
+        },
+        {
+          "pred": "100.64",
+          "correct": false
+        },
+        {
+          "pred": null,
+          "correct": false
+        },
+        {
+          "pred": "64",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.25,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: There were 106 dollars in Olivia's wallet. After she visited a supermarket and a showroom there were 26 dollars left. If she spent 49 dollars at the showroom How much did she spend at the supermarket?\nAnswer:",
+      "gold": "31",
+      "samples": [
+        {
+          "pred": "31",
+          "correct": true
+        },
+        {
+          "pred": "31",
+          "correct": true
+        },
+        {
+          "pred": "31",
+          "correct": true
+        },
+        {
+          "pred": "8",
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Faye was placing her pencils and crayons into 30 rows with 71 crayons and 24 pencils in each row. How many pencils does she have?\nAnswer:",
+      "gold": "720",
+      "samples": [
+        {
+          "pred": "720",
+          "correct": true
+        },
+        {
+          "pred": null,
+          "correct": false
+        },
+        {
+          "pred": "84",
+          "correct": false
+        },
+        {
+          "pred": "720",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.5,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Ed had 10 more marbles than Doug. Doug lost 11 of his marbles at the playground. If Ed had 45 marbles How many more marbles did Ed have than Doug then?\nAnswer:",
+      "gold": "21",
+      "samples": [
+        {
+          "pred": "21",
+          "correct": true
+        },
+        {
+          "pred": "**10**",
+          "correct": false
+        },
+        {
+          "pred": "21",
+          "correct": true
+        },
+        {
+          "pred": "16",
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.5,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: 26 children were riding on the bus. At the bus stop 38 more children got on the bus. How many children are on the bus now?\nAnswer:",
+      "gold": "64",
+      "samples": [
+        {
+          "pred": "12",
+          "correct": false
+        },
+        {
+          "pred": "64",
+          "correct": true
+        },
+        {
+          "pred": "64.**",
+          "correct": true
+        },
+        {
+          "pred": "64",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Helen the hippo and her friends are preparing for thanksgiving at Helen's house. Helen baked 31 cookies yesterday 270 cookies this morning and 419 cookies the day before yesterday. How many cookies did Helen bake till last night?\nAnswer:",
+      "gold": "450",
+      "samples": [
+        {
+          "pred": "999",
+          "correct": false
+        },
+        {
+          "pred": "720",
+          "correct": false
+        },
+        {
+          "pred": "720",
+          "correct": false
+        },
+        {
+          "pred": "1390",
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.0,
+      "solved": false
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: He then went to see the oranges being harvested. He found out that they harvest 66 sacks per day and that each sack containes 25 oranges. How many oranges will they have after 87 days of harvest?\nAnswer:",
+      "gold": "143550",
+      "samples": [
+        {
+          "pred": "143550",
+          "correct": true
+        },
+        {
+          "pred": "143550",
+          "correct": true
+        },
+        {
+          "pred": "143550",
+          "correct": true
+        },
+        {
+          "pred": "\\bf{143550}",
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: An industrial machine made 9 shirts yesterday and 44 shirts today. It can make 3 shirts a minute. How many minutes did the machine work yesterday?\nAnswer:",
+      "gold": "3",
+      "samples": [
+        {
+          "pred": "3",
+          "correct": true
+        },
+        {
+          "pred": "601.27",
+          "correct": false
+        },
+        {
+          "pred": "17 \\frac{2}{3}",
+          "correct": false
+        },
+        {
+          "pred": "17",
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.25,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Bryan took a look at his books and magazines. If he has 9 books and 46 magazines in each of his 10 bookshelves How many magazines does he have in total?\nAnswer:",
+      "gold": "460",
+      "samples": [
+        {
+          "pred": "460",
+          "correct": true
+        },
+        {
+          "pred": "460",
+          "correct": true
+        },
+        {
+          "pred": "460",
+          "correct": true
+        },
+        {
+          "pred": null,
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Dave had 17 apps on his phone. After adding some he had 18 left. How many apps did he add?\nAnswer:",
+      "gold": "1",
+      "samples": [
+        {
+          "pred": "1",
+          "correct": true
+        },
+        {
+          "pred": "1",
+          "correct": true
+        },
+        {
+          "pred": "1",
+          "correct": true
+        },
+        {
+          "pred": "1",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 1.0,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Dan has $ 4. He bought a candy bar for $ 7 and a chocolate for $ 6. How much money did he spend buying the candy bar and chocolate?\nAnswer:",
+      "gold": "13",
+      "samples": [
+        {
+          "pred": "13",
+          "correct": true
+        },
+        {
+          "pred": "13",
+          "correct": true
+        },
+        {
+          "pred": "13",
+          "correct": true
+        },
+        {
+          "pred": "13",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 1.0,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: The bananas in Philip's collection are organized into 196 groups. If there are a total of 392 bananas in Philip's banana collection How big is each group?\nAnswer:",
+      "gold": "2",
+      "samples": [
+        {
+          "pred": "2",
+          "correct": true
+        },
+        {
+          "pred": "2",
+          "correct": true
+        },
+        {
+          "pred": "The answer is 2",
+          "correct": true
+        },
+        {
+          "pred": null,
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: The cave is 1218 feet deep and they are already at 849 feet. If they are travelling at speed of 17 How much farther until they reach the end of the cave?\nAnswer:",
+      "gold": "369",
+      "samples": [
+        {
+          "pred": "394",
+          "correct": false
+        },
+        {
+          "pred": "180.8823482 \\text{ miles}",
+          "correct": false
+        },
+        {
+          "pred": "369",
+          "correct": true
+        },
+        {
+          "pred": null,
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.25,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: The Ferris wheel in paradise park has 4 seats. If 20 people can ride the wheel at the same time How many people can each seat hold?\nAnswer:",
+      "gold": "5",
+      "samples": [
+        {
+          "pred": "5",
+          "correct": true
+        },
+        {
+          "pred": "5",
+          "correct": true
+        },
+        {
+          "pred": null,
+          "correct": false
+        },
+        {
+          "pred": "5",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: A farmer had 177 tomatoes and 12 potatoes in his garden. If he picked 53 tomatoes How many tomatoes and potatoes does he have left?\nAnswer:",
+      "gold": "136",
+      "samples": [
+        {
+          "pred": "124 tomatoes and 12 potatoes",
+          "correct": false
+        },
+        {
+          "pred": "136",
+          "correct": true
+        },
+        {
+          "pred": "136",
+          "correct": true
+        },
+        {
+          "pred": "124 tomatoes and 12 potatoes",
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.5,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Danny collects bottle caps. He lost 66 bottle caps at the park. Now he has 25 bottle caps in his collection. How many bottle caps did danny have at first?\nAnswer:",
+      "gold": "91",
+      "samples": [
+        {
+          "pred": "91",
+          "correct": true
+        },
+        {
+          "pred": "91",
+          "correct": true
+        },
+        {
+          "pred": "91",
+          "correct": true
+        },
+        {
+          "pred": "91",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 1.0,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Jack received 4 emails in the morning, 5 emails in the afternoon and 8 emails in the evening. How many emails did Jack receive in the afternoon and evening?\nAnswer:",
+      "gold": "13",
+      "samples": [
+        {
+          "pred": "13",
+          "correct": true
+        },
+        {
+          "pred": "13",
+          "correct": true
+        },
+        {
+          "pred": "13",
+          "correct": true
+        },
+        {
+          "pred": "13",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 1.0,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Paco had 22 sweet cookies and 75 salty cookies. He ate 15 sweet cookies and 54 salty cookies. How many sweet cookies did Paco have left?\nAnswer:",
+      "gold": "7",
+      "samples": [
+        {
+          "pred": "7",
+          "correct": true
+        },
+        {
+          "pred": "7",
+          "correct": true
+        },
+        {
+          "pred": "7",
+          "correct": true
+        },
+        {
+          "pred": "11",
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: The ring toss game at the carnival made the same amount of money each day. In total in 5 days they earned 165 dollars. How much did they make per day?\nAnswer:",
+      "gold": "33",
+      "samples": [
+        {
+          "pred": "33",
+          "correct": true
+        },
+        {
+          "pred": "33",
+          "correct": true
+        },
+        {
+          "pred": "165",
+          "correct": false
+        },
+        {
+          "pred": "33",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Dave had 24 files and 13 apps on his phone. After deleting some apps and files he had 17 apps and 21 files left. How many files did he delete?\nAnswer:",
+      "gold": "3",
+      "samples": [
+        {
+          "pred": "3",
+          "correct": true
+        },
+        {
+          "pred": "3",
+          "correct": true
+        },
+        {
+          "pred": "3 files",
+          "correct": false
+        },
+        {
+          "pred": "3",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: In a school there are 569 girls and 236 boys. How many more girls than boys does the school have?\nAnswer:",
+      "gold": "333",
+      "samples": [
+        {
+          "pred": "333",
+          "correct": true
+        },
+        {
+          "pred": "333",
+          "correct": true
+        },
+        {
+          "pred": "333",
+          "correct": true
+        },
+        {
+          "pred": "333",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 1.0,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Rebecca wants to split a collection of eggs into groups of 11. If each group has 2 eggs How many eggs does Rebecca have?\nAnswer:",
+      "gold": "22",
+      "samples": [
+        {
+          "pred": "22",
+          "correct": true
+        },
+        {
+          "pred": "correct, and compare it with the provided answer",
+          "correct": false
+        },
+        {
+          "pred": "22",
+          "correct": true
+        },
+        {
+          "pred": "22",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Mary is baking a cake. The recipe calls for 7 cups of sugar and 10 cups of flour. She already put in 4 cups of sugar. How many more cups of sugar does she need to add?\nAnswer:",
+      "gold": "3",
+      "samples": [
+        {
+          "pred": "3",
+          "correct": true
+        },
+        {
+          "pred": "3",
+          "correct": true
+        },
+        {
+          "pred": "3",
+          "correct": true
+        },
+        {
+          "pred": "3",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 1.0,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Dave had 21 apps on his phone. He added 89 new apps. After deleting some he had 24 left. How many more apps did he add than he deleted?\nAnswer:",
+      "gold": "3",
+      "samples": [
+        {
+          "pred": "3",
+          "correct": true
+        },
+        {
+          "pred": "40",
+          "correct": false
+        },
+        {
+          "pred": "3",
+          "correct": true
+        },
+        {
+          "pred": "3",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: During summer break 202958 kids from Lawrence county go to camp and the other 777622 kids stay home. How many more kids stayed home compared to those who went to the camp?\nAnswer:",
+      "gold": "574664",
+      "samples": [
+        {
+          "pred": "757305.2",
+          "correct": false
+        },
+        {
+          "pred": "757327",
+          "correct": false
+        },
+        {
+          "pred": "7569942",
+          "correct": false
+        },
+        {
+          "pred": "574664.**",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.25,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: The grasshopper and the frog had a jumping contest. The grasshopper jumped 13 inches. The grasshopper jumped 2 inches farther than the grasshopper. How far did the frog jump?\nAnswer:",
+      "gold": "11",
+      "samples": [
+        {
+          "pred": "15",
+          "correct": false
+        },
+        {
+          "pred": null,
+          "correct": false
+        },
+        {
+          "pred": "11 inches",
+          "correct": true
+        },
+        {
+          "pred": "13 inches",
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.25,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Allan brought 3 balloons and 20 balls while Jake brought 5 balloons and 59 balls to the park. How many balloons did Allan and Jake have in the park?\nAnswer:",
+      "gold": "8",
+      "samples": [
+        {
+          "pred": "87",
+          "correct": false
+        },
+        {
+          "pred": "8",
+          "correct": true
+        },
+        {
+          "pred": "87",
+          "correct": false
+        },
+        {
+          "pred": "8",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.5,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: He then went to see the oranges being harvested. He found out that they harvest 8 sacks per day. How many days will it take to harvest 24 sacks of oranges?\nAnswer:",
+      "gold": "3",
+      "samples": [
+        {
+          "pred": "3",
+          "correct": true
+        },
+        {
+          "pred": "3",
+          "correct": true
+        },
+        {
+          "pred": "3 days",
+          "correct": true
+        },
+        {
+          "pred": "3",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 1.0,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Every day Ryan spends 6 hours on learning english and 5 hours on learning chinese. If he learns for 2 days How many hours does he spend on learning english in all?\nAnswer:",
+      "gold": "12",
+      "samples": [
+        {
+          "pred": null,
+          "correct": false
+        },
+        {
+          "pred": "12",
+          "correct": true
+        },
+        {
+          "pred": "22",
+          "correct": false
+        },
+        {
+          "pred": null,
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.25,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Baker made 144 cakes. He sold 71 of them. Then he made 111 more cakes. How many more cakes did baker make than those he sold?\nAnswer:",
+      "gold": "184",
+      "samples": [
+        {
+          "pred": "184",
+          "correct": true
+        },
+        {
+          "pred": "184",
+          "correct": true
+        },
+        {
+          "pred": "40",
+          "correct": false
+        },
+        {
+          "pred": "109",
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.5,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: There were 12 people on the bus. At the next stop 4 more people got on the bus. Each bus can not have more than 36 people. How many people are there on the bus now?\nAnswer:",
+      "gold": "16",
+      "samples": [
+        {
+          "pred": "16",
+          "correct": true
+        },
+        {
+          "pred": "16",
+          "correct": true
+        },
+        {
+          "pred": null,
+          "correct": false
+        },
+        {
+          "pred": "16",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Allan brought 5 balloons and Jake brought 6 balloons to the park. Jake then bought 3 more balloons at the park. How many balloons did Jake bring to the park?\nAnswer:",
+      "gold": "9",
+      "samples": [
+        {
+          "pred": "14",
+          "correct": false
+        },
+        {
+          "pred": "9",
+          "correct": true
+        },
+        {
+          "pred": "9",
+          "correct": true
+        },
+        {
+          "pred": "very small, but to complement the utter simplicity",
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.5,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: An industrial machine worked for 5 minutes. It can make 4 shirts a minute. How many shirts did machine make?\nAnswer:",
+      "gold": "20",
+      "samples": [
+        {
+          "pred": "20",
+          "correct": true
+        },
+        {
+          "pred": "20",
+          "correct": true
+        },
+        {
+          "pred": "20",
+          "correct": true
+        },
+        {
+          "pred": "20",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 1.0,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Paco had 9 sweet cookies and 6 salty cookies. He ate 36 sweet cookies and 3 salty cookies. How many salty cookies did Paco have left?\nAnswer:",
+      "gold": "3",
+      "samples": [
+        {
+          "pred": "3",
+          "correct": true
+        },
+        {
+          "pred": "21",
+          "correct": false
+        },
+        {
+          "pred": "81",
+          "correct": false
+        },
+        {
+          "pred": "\"Noicio\" because it's the first letter of the answer to something else",
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.25,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: A book has 3 chapters. The first chapter is 66 pages long the second chapter is 35 pages long and the third chapter is 24 pages long. How many pages does the book have altogether?\nAnswer:",
+      "gold": "125",
+      "samples": [
+        {
+          "pred": "129",
+          "correct": false
+        },
+        {
+          "pred": "125",
+          "correct": true
+        },
+        {
+          "pred": "125",
+          "correct": true
+        },
+        {
+          "pred": "125",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Some children were riding on the bus. At the bus stop 2 more children got on the bus. Then there were 41 children altogether on the bus. How many children were riding on the bus before the bus stop?\nAnswer:",
+      "gold": "39",
+      "samples": [
+        {
+          "pred": "39",
+          "correct": true
+        },
+        {
+          "pred": "39",
+          "correct": true
+        },
+        {
+          "pred": "39",
+          "correct": true
+        },
+        {
+          "pred": "39",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 1.0,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Rebecca wants to split a collection of eggs into 3 groups. Rebecca has 4 marbles and 15 eggs. How many eggs will each group have?\nAnswer:",
+      "gold": "5",
+      "samples": [
+        {
+          "pred": "5",
+          "correct": true
+        },
+        {
+          "pred": null,
+          "correct": false
+        },
+        {
+          "pred": "6\\frac{1}{3}",
+          "correct": false
+        },
+        {
+          "pred": "5",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.5,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: After finding some bottle caps at the park danny has 32 bottle caps in his collection. If he had 25 bottle caps in his collection earlier How many bottle caps did he find at the park?\nAnswer:",
+      "gold": "7",
+      "samples": [
+        {
+          "pred": "7",
+          "correct": true
+        },
+        {
+          "pred": "7",
+          "correct": true
+        },
+        {
+          "pred": "7",
+          "correct": true
+        },
+        {
+          "pred": "7",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 1.0,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Julia played tag with 15 kids on monday, 18 kids on tuesday and 97 kids on wednesday. How many kids did she play with on monday and tuesday?\nAnswer:",
+      "gold": "33",
+      "samples": [
+        {
+          "pred": "33",
+          "correct": true
+        },
+        {
+          "pred": "33",
+          "correct": true
+        },
+        {
+          "pred": "33",
+          "correct": true
+        },
+        {
+          "pred": "33",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 1.0,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: In Haley's class some boys love to play marbles. If Haley has 10 marbles and she gave 5 marbles to each boy How many boys did she give the marbles to?\nAnswer:",
+      "gold": "2",
+      "samples": [
+        {
+          "pred": "2",
+          "correct": true
+        },
+        {
+          "pred": "2",
+          "correct": true
+        },
+        {
+          "pred": null,
+          "correct": false
+        },
+        {
+          "pred": "6",
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.5,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: After resting they decided to go for a swim. If the depth of the water is 10 times Dean's height and he stands at 9 feet How much deeper is the water than Dean's height?\nAnswer:",
+      "gold": "81",
+      "samples": [
+        {
+          "pred": "81 feet",
+          "correct": true
+        },
+        {
+          "pred": "90 feet",
+          "correct": false
+        },
+        {
+          "pred": "81",
+          "correct": true
+        },
+        {
+          "pred": null,
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.5,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: A book has 3 chapters. The first chapter is 91 pages long the second chapter is 23 pages long and the third chapter is 25 pages long. How many more pages does the first chapter have than the second chapter?\nAnswer:",
+      "gold": "68",
+      "samples": [
+        {
+          "pred": "68",
+          "correct": true
+        },
+        {
+          "pred": "68",
+          "correct": true
+        },
+        {
+          "pred": "68",
+          "correct": true
+        },
+        {
+          "pred": "68",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 1.0,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: After eating a hearty meal they went to see the Buckingham palace. There, Rachel learned that 317 visitors came to the Buckingham palace that day. If there were 295 visitors the previous day How many more visitors visited the Buckingham palace on that day than on the previous day?\nAnswer:",
+      "gold": "22",
+      "samples": [
+        {
+          "pred": "Step 1: Find the total number of snacks Caroline consumed in a week",
+          "correct": false
+        },
+        {
+          "pred": "22",
+          "correct": true
+        },
+        {
+          "pred": "22",
+          "correct": true
+        },
+        {
+          "pred": "22",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: The Razorback t-shirt shop made $ 51 dollars from selling 3 t-shirt during the Arkansas and Texas tech game they. What is the cost of each t-shirt?\nAnswer:",
+      "gold": "17",
+      "samples": [
+        {
+          "pred": "17",
+          "correct": true
+        },
+        {
+          "pred": "17",
+          "correct": true
+        },
+        {
+          "pred": "17",
+          "correct": true
+        },
+        {
+          "pred": "17",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 1.0,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Jack received 3 emails in the morning, 4 emails in the afternoon and 8 emails in the evening. How many emails did Jack receive in the morning and evening?\nAnswer:",
+      "gold": "11",
+      "samples": [
+        {
+          "pred": "11",
+          "correct": true
+        },
+        {
+          "pred": "11",
+          "correct": true
+        },
+        {
+          "pred": null,
+          "correct": false
+        },
+        {
+          "pred": "11",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Lawrence county has 313473 kids. During summer break 274865 kids stay home and the rest go to camp. How many kids go to the camp during the break?\nAnswer:",
+      "gold": "38608",
+      "samples": [
+        {
+          "pred": "38608",
+          "correct": true
+        },
+        {
+          "pred": "38608",
+          "correct": true
+        },
+        {
+          "pred": "38608",
+          "correct": true
+        },
+        {
+          "pred": "38608",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 1.0,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: The grasshopper and the frog had a jumping contest. The grasshopper jumped 35 inches. The grasshopper jumped 4 inches farther than the frog. How much did they jump altogether?\nAnswer:",
+      "gold": "66",
+      "samples": [
+        {
+          "pred": "66",
+          "correct": true
+        },
+        {
+          "pred": "66",
+          "correct": true
+        },
+        {
+          "pred": "66",
+          "correct": true
+        },
+        {
+          "pred": "29.275 square feet",
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Winter is almost here and most animals are migrating to warmer countries. There are 3 bird families living near the mountain. 26 new bird families came to live near the mountain from the arctic while 2 bird families flew away further south for winter. How many bird families were left near the mountain?\nAnswer:",
+      "gold": "27",
+      "samples": [
+        {
+          "pred": "24",
+          "correct": false
+        },
+        {
+          "pred": "27",
+          "correct": true
+        },
+        {
+          "pred": "24",
+          "correct": false
+        },
+        {
+          "pred": "27",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.5,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Adam could fit 8 action figures and 10 cabinets on each shelf in his room. His room has 4 shelves. How many total items could his shelves hold?\nAnswer:",
+      "gold": "72",
+      "samples": [
+        {
+          "pred": "72",
+          "correct": true
+        },
+        {
+          "pred": "72",
+          "correct": true
+        },
+        {
+          "pred": "72",
+          "correct": true
+        },
+        {
+          "pred": "72",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 1.0,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Robin's hair was 16 inches long. He cut off 11 inches. Then it again grew by 12 inches. How long is his hair now?\nAnswer:",
+      "gold": "17",
+      "samples": [
+        {
+          "pred": "17",
+          "correct": true
+        },
+        {
+          "pred": "17 inches",
+          "correct": true
+        },
+        {
+          "pred": "23",
+          "correct": false
+        },
+        {
+          "pred": "17",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Friends of Katie had 57 games and she had 63 ds games. How many more games does Katie have than her friends?\nAnswer:",
+      "gold": "6",
+      "samples": [
+        {
+          "pred": "63",
+          "correct": false
+        },
+        {
+          "pred": "6",
+          "correct": true
+        },
+        {
+          "pred": "6",
+          "correct": true
+        },
+        {
+          "pred": "<your answer>.'\" So, I need to put \"The answer is 6.\"",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Lucy went to the grocery store. She bought 10 packs of cookie and 4 packs of cake. How many more packs of cookie did she buy over cake?\nAnswer:",
+      "gold": "6",
+      "samples": [
+        {
+          "pred": "6",
+          "correct": true
+        },
+        {
+          "pred": "6",
+          "correct": true
+        },
+        {
+          "pred": "6",
+          "correct": true
+        },
+        {
+          "pred": null,
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: 6 red peaches, 90 yellow peaches and 16 green peaches are in the basket. How many red and green peaches are in the basket?\nAnswer:",
+      "gold": "22",
+      "samples": [
+        {
+          "pred": "22",
+          "correct": true
+        },
+        {
+          "pred": null,
+          "correct": false
+        },
+        {
+          "pred": "**16**",
+          "correct": false
+        },
+        {
+          "pred": "6 red and 16 green peaches",
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.25,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Mary is baking a cake. The recipe calls for 10 cups of flour 2 cups of sugar and 80 cups of salt. She already put in 7 cups of flour. How many more cups of flour than cups of sugar does she need to add now?\nAnswer:",
+      "gold": "1",
+      "samples": [
+        {
+          "pred": "-5",
+          "correct": false
+        },
+        {
+          "pred": "1",
+          "correct": true
+        },
+        {
+          "pred": "1",
+          "correct": true
+        },
+        {
+          "pred": "1",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Paco had 17 cookies. He ate 14 cookies and gave 13 of them to his friend. How many more cookies did he eat than those he gave to his friend?\nAnswer:",
+      "gold": "1",
+      "samples": [
+        {
+          "pred": "1",
+          "correct": true
+        },
+        {
+          "pred": "1",
+          "correct": true
+        },
+        {
+          "pred": "1",
+          "correct": true
+        },
+        {
+          "pred": "1",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 1.0,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: In a school there are 315 girls and 309 boys. There are also 772 teachers How many people are there in that school?\nAnswer:",
+      "gold": "1396",
+      "samples": [
+        {
+          "pred": "1396",
+          "correct": true
+        },
+        {
+          "pred": "1396",
+          "correct": true
+        },
+        {
+          "pred": "1396",
+          "correct": true
+        },
+        {
+          "pred": "1396",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 1.0,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: There are some baskets of peaches. Each basket has 4 red peaches and 3 green peaches. If there are a total of 7 peaches in all baskets How many baskets of peaches are there?\nAnswer:",
+      "gold": "1",
+      "samples": [
+        {
+          "pred": "1",
+          "correct": true
+        },
+        {
+          "pred": "0",
+          "correct": false
+        },
+        {
+          "pred": "1",
+          "correct": true
+        },
+        {
+          "pred": "1",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Jessie currently weighs 27 kilograms. After she started to go jogging everyday she lost 101 kilograms. How much did she weigh before starting to jog?\nAnswer:",
+      "gold": "128",
+      "samples": [
+        {
+          "pred": "128 kilograms",
+          "correct": false
+        },
+        {
+          "pred": "128",
+          "correct": true
+        },
+        {
+          "pred": "941\u5343\u514b",
+          "correct": false
+        },
+        {
+          "pred": "128 kilograms",
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.25,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: David did 51 push-ups in gym class today. David did 49 more push-ups than Zachary. How many push-ups did Zachary and David do altogether?\nAnswer:",
+      "gold": "53",
+      "samples": [
+        {
+          "pred": "53",
+          "correct": true
+        },
+        {
+          "pred": null,
+          "correct": false
+        },
+        {
+          "pred": "53",
+          "correct": true
+        },
+        {
+          "pred": "53",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: In a school there are 362 boys and 257 girls. 403 more girls joined the school. How many more girls than boys does the school have?\nAnswer:",
+      "gold": "298",
+      "samples": [
+        {
+          "pred": null,
+          "correct": false
+        },
+        {
+          "pred": "433",
+          "correct": false
+        },
+        {
+          "pred": "298",
+          "correct": true
+        },
+        {
+          "pred": "298",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.5,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Josh had 22 marbles in his collection. He found 13 marbles ones while he lost 5 marbles. How many marbles does he have now?\nAnswer:",
+      "gold": "30",
+      "samples": [
+        {
+          "pred": null,
+          "correct": false
+        },
+        {
+          "pred": "30",
+          "correct": true
+        },
+        {
+          "pred": "**30**",
+          "correct": false
+        },
+        {
+          "pred": "30",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.5,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: After eating a hearty meal they went to see the Buckingham palace. There were 39 paintings in the Buckingham palace. There, Rachel learned that 661 visitors came to the Buckingham palace that day. If there were 600 visitors the previous day How many more visitors visited the Buckingham palace on that day than on the previous day?\nAnswer:",
+      "gold": "61",
+      "samples": [
+        {
+          "pred": "661",
+          "correct": false
+        },
+        {
+          "pred": "61",
+          "correct": true
+        },
+        {
+          "pred": "61",
+          "correct": true
+        },
+        {
+          "pred": "11.**",
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.5,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Nell collects baseball cards. She had 566 cards while Jeff had 234 cards. She gave some of her cards to Jeff and now has 535 cards left. How many cards does Jeff have now?\nAnswer:",
+      "gold": "265",
+      "samples": [
+        {
+          "pred": "265",
+          "correct": true
+        },
+        {
+          "pred": "499",
+          "correct": false
+        },
+        {
+          "pred": null,
+          "correct": false
+        },
+        {
+          "pred": "265",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.5,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Randy uses 36 blocks to build a tower. If he had 59 blocks How many blocks are left?\nAnswer:",
+      "gold": "23",
+      "samples": [
+        {
+          "pred": "23",
+          "correct": true
+        },
+        {
+          "pred": "23",
+          "correct": true
+        },
+        {
+          "pred": "23",
+          "correct": true
+        },
+        {
+          "pred": "23",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 1.0,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: At the stop 8 more people got on the train. Initially there were 11 people on the train. How many people are there on the train now?\nAnswer:",
+      "gold": "19",
+      "samples": [
+        {
+          "pred": "19",
+          "correct": true
+        },
+        {
+          "pred": "19",
+          "correct": true
+        },
+        {
+          "pred": "19",
+          "correct": true
+        },
+        {
+          "pred": "19",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 1.0,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Rachel has 3 apple trees. She picked 8 apples from each of her trees. Now the trees have a total 9 apples still on them. How many apples were there on all trees initially?\nAnswer:",
+      "gold": "33",
+      "samples": [
+        {
+          "pred": "33",
+          "correct": true
+        },
+        {
+          "pred": "33",
+          "correct": true
+        },
+        {
+          "pred": null,
+          "correct": false
+        },
+        {
+          "pred": null,
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.5,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: 43 children were riding on the bus. At the bus stop some children got off the bus. Then there were 21 children left on the bus. How many children got off the bus at the bus stop?\nAnswer:",
+      "gold": "22",
+      "samples": [
+        {
+          "pred": "22",
+          "correct": true
+        },
+        {
+          "pred": "22",
+          "correct": true
+        },
+        {
+          "pred": "22",
+          "correct": true
+        },
+        {
+          "pred": null,
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: 5 red peaches and 11 green peaches are in the basket. How many more green peaches than red peaches are in the basket?\nAnswer:",
+      "gold": "6",
+      "samples": [
+        {
+          "pred": "6",
+          "correct": true
+        },
+        {
+          "pred": "6",
+          "correct": true
+        },
+        {
+          "pred": "6",
+          "correct": true
+        },
+        {
+          "pred": "6",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 1.0,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Nell collects cards. She had 246 baseball cards and 214 Ace cards. She gave some of her cards to Jeff and now has 404 baseball cards and 495 Ace cards left. How many more Ace cards than baseball cards does Nell have?\nAnswer:",
+      "gold": "91",
+      "samples": [
+        {
+          "pred": "91",
+          "correct": true
+        },
+        {
+          "pred": "91",
+          "correct": true
+        },
+        {
+          "pred": "91",
+          "correct": true
+        },
+        {
+          "pred": "91",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 1.0,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Each pack of dvds costs 76 dollars. If there is a discount of 25 dollars on each pack How much do you have to pay to buy each pack?\nAnswer:",
+      "gold": "51",
+      "samples": [
+        {
+          "pred": "9",
+          "correct": false
+        },
+        {
+          "pred": "51",
+          "correct": true
+        },
+        {
+          "pred": "51",
+          "correct": true
+        },
+        {
+          "pred": "51",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: They decided to hold the party in their backyard. They have 14 chairs for each set of table. If they have 9 sets of tables How many more chairs than tables do they have?\nAnswer:",
+      "gold": "117",
+      "samples": [
+        {
+          "pred": "117",
+          "correct": true
+        },
+        {
+          "pred": "117",
+          "correct": true
+        },
+        {
+          "pred": "117",
+          "correct": true
+        },
+        {
+          "pred": "0",
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Next on his checklist is wax to stick the feathers together and colors to paint them. He needs a total of 57 g of colors to paint them. He needs 22 g of wax more. If the feathers require a total of 353 g of wax How many grams of wax does he already have?\nAnswer:",
+      "gold": "331",
+      "samples": [
+        {
+          "pred": "22",
+          "correct": false
+        },
+        {
+          "pred": null,
+          "correct": false
+        },
+        {
+          "pred": "366",
+          "correct": false
+        },
+        {
+          "pred": "274",
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.0,
+      "solved": false
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Frank was reading through his favorite book. The book had 2 chapters each with 405 pages. It took frank 664 days to finish the book. How many chapters did he read per day?\nAnswer:",
+      "gold": "332",
+      "samples": [
+        {
+          "pred": "1.16",
+          "correct": false
+        },
+        {
+          "pred": "\\dfrac{810}{664}",
+          "correct": false
+        },
+        {
+          "pred": "1.218657342331957 chapters per day",
+          "correct": false
+        },
+        {
+          "pred": "**0.82**",
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.0,
+      "solved": false
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Jerry had 5 action figures and 2 books on a shelf in his room. Later he added 9 more books to the shelf. How many more books than action figures were on his shelf?\nAnswer:",
+      "gold": "6",
+      "samples": [
+        {
+          "pred": "6",
+          "correct": true
+        },
+        {
+          "pred": "12 books",
+          "correct": false
+        },
+        {
+          "pred": "6",
+          "correct": true
+        },
+        {
+          "pred": "<your answer>.'\"* is a definitive trap",
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.5,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Paul got a box of some crayons for his birthday. By the end of the school year he had either lost or given away 551 of them and only had 177 left. How many crayons did he get for his birthday?\nAnswer:",
+      "gold": "728",
+      "samples": [
+        {
+          "pred": "728",
+          "correct": true
+        },
+        {
+          "pred": "728",
+          "correct": true
+        },
+        {
+          "pred": "728",
+          "correct": true
+        },
+        {
+          "pred": "728",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 1.0,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Because of the decision Sofia asked the students to suggest specific types of food. If 324 students suggested adding mashed potatoes 374 suggested adding bacon to the menu and 128 suggested adding tomatoes How many students participated in the suggestion of new food items?\nAnswer:",
+      "gold": "826",
+      "samples": [
+        {
+          "pred": "**726**",
+          "correct": false
+        },
+        {
+          "pred": "826",
+          "correct": true
+        },
+        {
+          "pred": "2852",
+          "correct": false
+        },
+        {
+          "pred": "826",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.5,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: A book has 31 chapters. Each chapter is 61 pages long. How many pages does the book have altogether?\nAnswer:",
+      "gold": "1891",
+      "samples": [
+        {
+          "pred": "1891",
+          "correct": true
+        },
+        {
+          "pred": "1891",
+          "correct": true
+        },
+        {
+          "pred": "1891",
+          "correct": true
+        },
+        {
+          "pred": "1891",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 1.0,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: The school is planning a field trip. The school has 67 classrooms. There are 66 students in each classroom in the school. If there are 6 seats on each school bus How many buses are needed to take the trip?\nAnswer:",
+      "gold": "737",
+      "samples": [
+        {
+          "pred": null,
+          "correct": false
+        },
+        {
+          "pred": "738",
+          "correct": false
+        },
+        {
+          "pred": "737",
+          "correct": true
+        },
+        {
+          "pred": "737",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.5,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Bobby ate 33 pieces of candy. Then he ate 4 more. He also ate 14 pieces of chocolate. How many pieces of candy and chocolate did Bobby eat altogether?\nAnswer:",
+      "gold": "51",
+      "samples": [
+        {
+          "pred": "51",
+          "correct": true
+        },
+        {
+          "pred": "51",
+          "correct": true
+        },
+        {
+          "pred": "51",
+          "correct": true
+        },
+        {
+          "pred": "51",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 1.0,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Paco had 36 cookies. He gave 14 cookies to his friend and ate 10 cookies. How many cookies did Paco have left?\nAnswer:",
+      "gold": "12",
+      "samples": [
+        {
+          "pred": "32",
+          "correct": false
+        },
+        {
+          "pred": "12",
+          "correct": true
+        },
+        {
+          "pred": "12",
+          "correct": true
+        },
+        {
+          "pred": "12",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Paige raised 15 goldfish in the pond but stray cats loved eating them. 5 were eaten. How many goldfish remained?\nAnswer:",
+      "gold": "10",
+      "samples": [
+        {
+          "pred": "10",
+          "correct": true
+        },
+        {
+          "pred": "10",
+          "correct": true
+        },
+        {
+          "pred": "10",
+          "correct": true
+        },
+        {
+          "pred": "10",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 1.0,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: During summer break 61619 kids from Lawrence county stayed home and the rest went to camp. The total number of kids in Lawrence county is 91676. About how many kids in Lawrence county went to camp?\nAnswer:",
+      "gold": "30057",
+      "samples": [
+        {
+          "pred": "30057",
+          "correct": true
+        },
+        {
+          "pred": null,
+          "correct": false
+        },
+        {
+          "pred": "91676",
+          "correct": false
+        },
+        {
+          "pred": "30057",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.5,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: 2 children were riding on the bus. At the bus stop some more children got on the bus. Then there were 10 children altogether on the bus. How many more children are on the bus now than there were before the bus stop?\nAnswer:",
+      "gold": "8",
+      "samples": [
+        {
+          "pred": "8",
+          "correct": true
+        },
+        {
+          "pred": "-10",
+          "correct": false
+        },
+        {
+          "pred": "8",
+          "correct": true
+        },
+        {
+          "pred": "10",
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.5,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: 3 birds were sitting on the fence. 2 more birds and 6 more storks came to join them. How many more storks than birds are sitting on the fence?\nAnswer:",
+      "gold": "1",
+      "samples": [
+        {
+          "pred": "1",
+          "correct": true
+        },
+        {
+          "pred": "1",
+          "correct": true
+        },
+        {
+          "pred": "6",
+          "correct": false
+        },
+        {
+          "pred": "1",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: The Ferris wheel in paradise park has 6 seats. Each seat can hold 14 people. If there are 16 people on the wheel right now How many more people can join the wheel?\nAnswer:",
+      "gold": "68",
+      "samples": [
+        {
+          "pred": null,
+          "correct": false
+        },
+        {
+          "pred": "68",
+          "correct": true
+        },
+        {
+          "pred": "68",
+          "correct": true
+        },
+        {
+          "pred": "68",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: He then went to see the oranges being harvested. He found out that they harvest 74 sacks per day and discard 71 of them. How many sacks of oranges will they have after 51 days of harvest?\nAnswer:",
+      "gold": "153",
+      "samples": [
+        {
+          "pred": "-3468",
+          "correct": false
+        },
+        {
+          "pred": "153",
+          "correct": true
+        },
+        {
+          "pred": "153",
+          "correct": true
+        },
+        {
+          "pred": null,
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.5,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: The Razorback shop makes $ 115 dollars off each jersey and $ 25 off each t-shirt. During the Arkansas and Texas tech game they sold 113 t-shirts and 78 jerseys. How much more does a jersey cost than a t-shirt?\nAnswer:",
+      "gold": "90",
+      "samples": [
+        {
+          "pred": "90\"",
+          "correct": true
+        },
+        {
+          "pred": "90",
+          "correct": true
+        },
+        {
+          "pred": null,
+          "correct": false
+        },
+        {
+          "pred": "}118",
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.5,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Next on his checklist is wax to stick the feathers together and colors to paint them. He needs a total of 49 g of colors to paint them. If the feathers require 288 g of wax and right now he just needs 260 g How many grams of wax does he already have?\nAnswer:",
+      "gold": "28",
+      "samples": [
+        {
+          "pred": null,
+          "correct": false
+        },
+        {
+          "pred": "The answer is 28 grams",
+          "correct": true
+        },
+        {
+          "pred": "211",
+          "correct": false
+        },
+        {
+          "pred": "7614",
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.25,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Paul had 21 books. After selling some in a garage sale he bought 42 new ones. If he has 15 books now How many more books did he sell than he bought?\nAnswer:",
+      "gold": "6",
+      "samples": [
+        {
+          "pred": "0",
+          "correct": false
+        },
+        {
+          "pred": "48",
+          "correct": false
+        },
+        {
+          "pred": "-21",
+          "correct": false
+        },
+        {
+          "pred": "6",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.25,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Julia played tag with 9 kids on monday, 7 kids on tuesday and 96 kids on wednesday. How many more kids did she play with on monday than on tuesday?\nAnswer:",
+      "gold": "2",
+      "samples": [
+        {
+          "pred": "1529",
+          "correct": false
+        },
+        {
+          "pred": "2",
+          "correct": true
+        },
+        {
+          "pred": "9",
+          "correct": false
+        },
+        {
+          "pred": "2",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.5,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: There are 65 baskets of peaches. Each basket has 7 red peaches and 3 green peaches. How many peaches are in each basket?\nAnswer:",
+      "gold": "10",
+      "samples": [
+        {
+          "pred": "10",
+          "correct": true
+        },
+        {
+          "pred": "<your answer>.'",
+          "correct": false
+        },
+        {
+          "pred": "10",
+          "correct": true
+        },
+        {
+          "pred": null,
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.5,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: You had 14 bags with equal number of cookies. If you had 28 cookies and 86 candies in total How many bags of cookies do you have?\nAnswer:",
+      "gold": "2",
+      "samples": [
+        {
+          "pred": "7",
+          "correct": false
+        },
+        {
+          "pred": "14",
+          "correct": false
+        },
+        {
+          "pred": "114",
+          "correct": false
+        },
+        {
+          "pred": null,
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.0,
+      "solved": false
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Carol was sending out birthday invitations to her friends. Each package of invitations she bought had 14 invitations in it and she bought 6 packs. Then she bought 11 extra invitations. How many friends can she invite?\nAnswer:",
+      "gold": "95",
+      "samples": [
+        {
+          "pred": "95",
+          "correct": true
+        },
+        {
+          "pred": "6",
+          "correct": false
+        },
+        {
+          "pred": "95",
+          "correct": true
+        },
+        {
+          "pred": "the problem is contradictory and no valid solution exists",
+          "correct": false
+        }
+      ],
+      "problem_accuracy": 0.5,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Baker made 155 cakes. If his friend bought 140 cakes from him How many cakes would baker still have?\nAnswer:",
+      "gold": "15",
+      "samples": [
+        {
+          "pred": "15",
+          "correct": true
+        },
+        {
+          "pred": "15",
+          "correct": true
+        },
+        {
+          "pred": "15",
+          "correct": true
+        },
+        {
+          "pred": "15",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 1.0,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: A grocery store had 22 bottles of regular soda and 61 bottles of diet soda. How many more bottles of diet soda than regular soda did they have?\nAnswer:",
+      "gold": "39",
+      "samples": [
+        {
+          "pred": "39",
+          "correct": true
+        },
+        {
+          "pred": "39",
+          "correct": true
+        },
+        {
+          "pred": "39",
+          "correct": true
+        },
+        {
+          "pred": "39",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 1.0,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: A grocery store had 36 apples, 80 bottles of regular soda and 54 bottles of diet soda. How many more bottles than apple did they have?\nAnswer:",
+      "gold": "98",
+      "samples": [
+        {
+          "pred": "44",
+          "correct": false
+        },
+        {
+          "pred": "98",
+          "correct": true
+        },
+        {
+          "pred": "98",
+          "correct": true
+        },
+        {
+          "pred": "98",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 0.75,
+      "solved": true
+    },
+    {
+      "prompt": "Solve the following math problem step by step. Show your reasoning, then end with \"The answer is <your answer>.\"\n\nQuestion: Ryan learns english and chinese for 7 days. Every day he spends 4 hours on learning english and 5 hours on learning chinese. How many hours does he spend on learning english and chinese in all?\nAnswer:",
+      "gold": "63",
+      "samples": [
+        {
+          "pred": "63",
+          "correct": true
+        },
+        {
+          "pred": "63",
+          "correct": true
+        },
+        {
+          "pred": "63",
+          "correct": true
+        },
+        {
+          "pred": "63",
+          "correct": true
+        }
+      ],
+      "problem_accuracy": 1.0,
+      "solved": true
+    }
+  ]
+}

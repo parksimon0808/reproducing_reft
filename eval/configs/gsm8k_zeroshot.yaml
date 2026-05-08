@@ -1,0 +1,6 @@
+model: $PROJECT_DIR/models/Qwen3-1.7B-Base
+benchmark: gsm8k
+num_samples: 1
+temperature: 0.0
+top_p: 1.0
+max_new_tokens: 1024
